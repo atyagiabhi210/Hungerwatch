@@ -1,11 +1,10 @@
-In that case, you should also include instructions on how to set up and run the Flutter application locally after forking the repository. Here's how you can modify the README file to include those instructions:
+Certainly! Below is the modified README with resized and more presentable app screenshots:
 
 ---
 
 # Hungerwatch
 
 ![Hungerwatch Logo](./assets/app_logo.png)
-
 
 Hungerwatch is a Flutter application designed to address food scarcity issues within communities by enabling users to report food scarcity incidents in their neighborhoods. The application provides geographic insights, features a Gemini-powered chatbot, and offers community support to foster collaboration in combating food insecurity.
 
@@ -14,7 +13,7 @@ Hungerwatch is a Flutter application designed to address food scarcity issues wi
 - [Features](#features)
 - [Usage](#usage)
 - [Installation](#installation)
-- [AppScreenshot](#appscreenshots)
+- [App Screenshots](#app-screenshots)
 - [Contributing](#contributing)
 - [Support](#support)
 - [License](#license)
@@ -71,11 +70,13 @@ Hungerwatch is a Flutter application designed to address food scarcity issues wi
    flutter run
    ```
 
-## App ScreenShots
-![HomeScreen](./assets/home_page.jpeg) || ![Chatbot](./assets/chatbot.jpeg) || ![Post](./assets/post.jpeg)
+## App Screenshots
 
-
-
+<div>
+  <img src="./assets/home_page.jpeg" alt="Home Screen" width="200"/>
+  <img src="./assets/chatbot.jpeg" alt="Chatbot" width="200"/>
+  <img src="./assets/post.jpeg" alt="Post" width="200"/>
+</div>
 
 ## Contributing
 
@@ -83,10 +84,12 @@ We welcome contributions from developers, designers, and individuals passionate 
 
 ## Support
 
-For any questions, feedback, or assistance, please contact our support team at [atyagiabhi210@gmai;.com].
+For any questions, feedback, or assistance, please contact our support team at [atyagiabhi210@gmail.com].
 
 ## License
 
 Hungerwatch is licensed under the [MIT License](LICENSE).
 
 ---
+
+Ensure to replace `yourusername` in the clone command with your actual GitHub username and update the support email address accordingly. These resized screenshots provide a more visually appealing presentation of the app's interface.
