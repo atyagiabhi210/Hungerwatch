@@ -4,7 +4,8 @@ In that case, you should also include instructions on how to set up and run the 
 
 # Hungerwatch
 
-![Hungerwatch Logo](./images/logo.png)
+![Hungerwatch Logo](./assets/app_logo.png)
+
 
 Hungerwatch is a Flutter application designed to address food scarcity issues within communities by enabling users to report food scarcity incidents in their neighborhoods. The application provides geographic insights, features a Gemini-powered chatbot, and offers community support to foster collaboration in combating food insecurity.
 
@@ -13,6 +14,7 @@ Hungerwatch is a Flutter application designed to address food scarcity issues wi
 - [Features](#features)
 - [Usage](#usage)
 - [Installation](#installation)
+- [AppScreenshot](#appscreenshots)
 - [Contributing](#contributing)
 - [Support](#support)
 - [License](#license)
@@ -68,6 +70,12 @@ Hungerwatch is a Flutter application designed to address food scarcity issues wi
    ```
    flutter run
    ```
+
+## App ScreenShots
+![HomeScreen](./assets/home_page.jpeg)
+![Chatbot](./assets/chatbot.jpeg)
+![Post](./assets/post.jpeg)
+
 
 ## Contributing
 
