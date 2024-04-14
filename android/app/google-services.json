@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "116731140286",
+    "firebase_url": "https://hungerwatch-cb019-default-rtdb.firebaseio.com",
+    "project_id": "hungerwatch-cb019",
+    "storage_bucket": "hungerwatch-cb019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116731140286:android:66b7d4cd01b86d2b3326ef",
+        "android_client_info": {
+          "package_name": "com.example.hungerwatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116731140286-lulb3hsm27vefgbe2l7g801ftmiia7mn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC12sS4bmDOkTlif5lgiTf2MpBPVTgn78Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116731140286-lulb3hsm27vefgbe2l7g801ftmiia7mn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
