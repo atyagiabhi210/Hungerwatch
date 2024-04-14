@@ -72,9 +72,9 @@ Hungerwatch is a Flutter application designed to address food scarcity issues wi
    ```
 
 ## App ScreenShots
-![HomeScreen](./assets/home_page.jpeg)
-![Chatbot](./assets/chatbot.jpeg)
-![Post](./assets/post.jpeg)
+![HomeScreen](./assets/home_page.jpeg) || ![Chatbot](./assets/chatbot.jpeg) || ![Post](./assets/post.jpeg)
+
+
 
 
 ## Contributing
