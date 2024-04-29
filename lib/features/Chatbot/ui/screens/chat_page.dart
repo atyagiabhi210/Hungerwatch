@@ -25,6 +25,7 @@ class _ChatbotPageState extends State<ChatbotPage> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
+      backgroundColor: Colors.grey[300],
       body: body(
         child: BlocConsumer<ChatBloc, ChatState>(
           bloc: chatBloc,
@@ -70,7 +71,7 @@ class _ChatbotPageState extends State<ChatbotPage> {
                                           bottom: 10),
                                           decoration: BoxDecoration(
                                             borderRadius: BorderRadius.circular(10),
-                                            color: messages[index].role == "user"?Colors.blueAccent:Colors.redAccent, 
+                                            color: messages[index].role == "user"?Color.fromARGB(255, 126, 197, 128):const Color.fromARGB(255, 140, 165, 178), 
                                            ),
                                   
                                   padding: const EdgeInsets.all(16),
@@ -84,8 +85,9 @@ class _ChatbotPageState extends State<ChatbotPage> {
                                             ? TextAlign.end
                                             : TextAlign.start,
                                         style:
-                                            TextStyle(fontWeight: FontWeight.bold,
-                                            fontSize: 20,
+                                            TextStyle(
+                                              color: Colors.grey[800],
+                                            fontSize: 15,
                                         ),
                                       ),
                   ]),
@@ -102,7 +104,7 @@ class _ChatbotPageState extends State<ChatbotPage> {
                               decoration: InputDecoration(
                                   hintText: "Send a message...",
                                   hintStyle:
-                                      const TextStyle(color: Colors.blueAccent),
+                                       TextStyle(color:Colors.grey[700]),
                                   enabledBorder: InputBorder.none,
                                   focusedBorder: UnderlineInputBorder(
                                     borderRadius: BorderRadius.circular(2),
@@ -112,7 +114,7 @@ class _ChatbotPageState extends State<ChatbotPage> {
                             ),
                           ),
                           IconButton(
-                            icon: const Icon(Icons.send),
+                            icon: const Icon(Icons.send,color: Colors.green,),
                             onPressed: () {
                               if (chatControler.text.isNotEmpty) {
                                 String inputMessage = chatControler.text;

@@ -9,7 +9,7 @@ class Comment extends StatelessWidget{
     return Container(
       margin: EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: const Color.fromARGB(255, 35, 33, 33),
+       // color:Colors.grey[300],
         borderRadius: BorderRadius.circular(4),
       ),
       child: Column(
@@ -17,16 +17,16 @@ class Comment extends StatelessWidget{
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           //text
-          Icon(Icons.comment),
-          Text(text),
-          //username,time
           Row(
             children: [
               Icon(Icons.person),
               Text(username),
               Text("."),
              // Text(time),
-            ],)
+            ],),
+          Text(text),
+          //username,time
+         Divider() 
         ],
        ),
     );
